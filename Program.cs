@@ -1,5 +1,5 @@
 ﻿using System;
-
+using HackerRank.DaysOfCode;
 
 namespace HackerRank
 {
@@ -9,8 +9,8 @@ namespace HackerRank
         {
             int[] c={3,1};
             int[] b={5,2,8};
-            var a=ElectronicShop.getMoneySpent(c, b ,10);
-            Console.WriteLine(a);
+            Day2Operators.solve(12.0,20,8);
+
         }
     }
 }
