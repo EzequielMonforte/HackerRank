@@ -7,7 +7,9 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            var a=CountingValleys.Count(0, "DDUUDDUDUUUD");
+            int[] c={3,1};
+            int[] b={5,2,8};
+            var a=ElectronicShop.getMoneySpent(c, b ,10);
             Console.WriteLine(a);
         }
     }
