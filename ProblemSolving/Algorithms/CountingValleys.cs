@@ -1,4 +1,5 @@
 //https://www.hackerrank.com/challenges/counting-valleys/problem
+namespace HackerRank.ProblemSolving.Algorithms{
 public class CountingValleys
 {
     public static int Count(int n, string p){
@@ -27,4 +28,5 @@ public class CountingValleys
         }
         return valleys;
     }
+}
 }

@@ -1,4 +1,5 @@
 //https://www.hackerrank.com/challenges/sock-merchant/problem
+namespace HackerRank.ProblemSolving.Algorithms{
 static public class SockMerchant{
     public static int socks(int n, int[] ar) {
         int pairs= 0;
@@ -16,4 +17,5 @@ static public class SockMerchant{
         }
         return pairs;
     }
+}
 }

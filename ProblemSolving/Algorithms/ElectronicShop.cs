@@ -1,6 +1,6 @@
 //https://www.hackerrank.com/challenges/electronics-shop/problem
-//test
 
+namespace HackerRank.ProblemSolving.Algorithms{
 public class ElectronicShop{
 
     public static int getMoneySpent(int[] kb, int[] dr, int mn){
@@ -16,4 +16,5 @@ public class ElectronicShop{
         }
         return maxtemp;
     }
+}
 }
